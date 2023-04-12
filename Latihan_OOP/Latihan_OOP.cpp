@@ -53,3 +53,14 @@ public:
 
 	}
 };
+
+int main() {
+	Mahasiswa mhs;
+	mataKuliah mk;
+
+	mhs.input();
+	mhs.printData();
+
+	mk.inputMK();
+	mk.tampil();
+}
