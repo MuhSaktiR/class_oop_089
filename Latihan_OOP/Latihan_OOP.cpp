@@ -16,4 +16,7 @@ public:
 		cout << "Masukkan nilai \t: ";
 		cin >> nilai;
 	}
+
+	void printData();
+
 };
